@@ -1,9 +1,9 @@
 PYTHON ?= python
 
-.PHONY: install train evaluate predict app test lint
+.PHONY: install train evaluate predict app
 
 install:
-	$(PYTHON) -m pip install -e . -r requirements-dev.txt
+	$(PYTHON) -m pip install -e . -r requirements.txt
 
 train:
 	$(PYTHON) -m cataract_classifier.training.train --model $(MODEL)
@@ -16,9 +16,3 @@ predict:
 
 app:
 	streamlit run app/streamlit_app.py
-
-test:
-	pytest
-
-lint:
-	ruff check src app tests

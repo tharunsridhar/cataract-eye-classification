@@ -32,7 +32,6 @@ The system uses DenseNet121, EfficientNetB3, ResNet50, and VGG19. See
 configs/                  YAML configs for data, training, models, logging
 src/cataract_classifier/  Installable Python package
 app/                      Streamlit app
-tests/                    Unit tests
 models/                   Local or LFS-tracked model weights
 data/                     Local dataset placeholders
 docs/                     Architecture and references
@@ -42,7 +41,7 @@ assets/                   Sample images and demo media
 ## Setup
 
 ```bash
-python -m pip install -e . -r requirements-dev.txt
+python -m pip install -e . -r requirements.txt
 ```
 
 Copy `.env.example` to `.env` or export the variables in your shell:

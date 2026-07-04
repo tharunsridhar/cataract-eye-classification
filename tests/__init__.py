@@ -1,1 +1,0 @@
-"""Tests for cataract classifier."""

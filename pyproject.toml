@@ -22,7 +22,3 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
-[tool.ruff]
-line-length = 100
-src = ["src", "tests", "app"]
