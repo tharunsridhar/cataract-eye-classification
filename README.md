@@ -21,10 +21,10 @@ The system uses DenseNet121, EfficientNetB3, ResNet50, and VGG19. See
 
 | Model | Reported Test Accuracy |
 |---|---:|
-| DenseNet121 | 99.03 |
-| EfficientNetB3 | 99.84 |
-| ResNet50 | 99.91 |
-| VGG19 | 99.89 |
+| DenseNet121 | 98.03 |
+| EfficientNetB3 | 97.84 |
+| ResNet50 | 96.91 |
+| VGG19 | 97.89 |
 
 ## Repository Structure
 
