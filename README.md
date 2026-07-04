@@ -86,6 +86,3 @@ image data should stay outside git unless licensing explicitly allows sharing.
 
 See `docs/REFERENCES.md`.
 
-## License
-
-MIT
