@@ -1,0 +1,13 @@
+image_size: [224, 224]
+batch_size: 32
+class_names: ["Immature", "Mature", "Normal"]
+data_dir:
+  train: "${DATA_DIR}/train"
+  valid: "${DATA_DIR}/valid"
+  test: "${DATA_DIR}/test"
+augmentation:
+  horizontal_flip: true
+  rotation_range: 15
+  zoom_range: 0.1
+  width_shift_range: 0.1
+  height_shift_range: 0.1

@@ -1,0 +1,18 @@
+models:
+  densenet121:
+    path: "${MODEL_DIR}/densenet121.h5"
+    preprocess: "densenet"
+    reported_test_accuracy: 99.03
+  efficientnetb3:
+    path: "${MODEL_DIR}/efficientnetb3.h5"
+    preprocess: "efficientnet"
+    reported_test_accuracy: 99.84
+  resnet50:
+    path: "${MODEL_DIR}/resnet50.h5"
+    preprocess: "resnet50"
+    reported_test_accuracy: 99.91
+  vgg19:
+    path: "${MODEL_DIR}/vgg19.h5"
+    preprocess: "vgg19"
+    reported_test_accuracy: 99.89
+class_labels: ["Immature Cataract", "Mature Cataract", "Normal"]

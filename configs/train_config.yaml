@@ -1,0 +1,28 @@
+densenet121:
+  epochs_head: 15
+  epochs_fine: 25
+  lr_head: 1e-3
+  lr_fine: 1e-5
+  unfreeze_strategy: "last_n_layers"
+  unfreeze_n: 50
+efficientnetb3:
+  epochs_head: 15
+  epochs_fine: 25
+  lr_head: 1e-3
+  lr_fine: 1e-5
+  unfreeze_strategy: "last_n_layers"
+  unfreeze_n: 50
+resnet50:
+  epochs_head: 15
+  epochs_fine: 40
+  lr_head: 1e-3
+  lr_fine: 1e-5
+  unfreeze_strategy: "last_n_layers"
+  unfreeze_n: 50
+vgg19:
+  epochs_head: 15
+  epochs_fine: 25
+  lr_head: 1e-3
+  lr_fine: 1e-5
+  unfreeze_strategy: "by_block_name"
+  unfreeze_block: "block5"
