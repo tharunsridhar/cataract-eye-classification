@@ -1,5 +1,9 @@
 # Cataract Eye Classification
 
+![Python](https://img.shields.io/badge/Python-3-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-F57C00?style=flat-square&logo=tensorflow&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
 Transfer-learning ensemble for cataract severity classification: Immature,
 Mature, and Normal.
 
